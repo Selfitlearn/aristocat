@@ -1,0 +1,707 @@
+05-01 23:26:08.478|2	|build: 20220728
+05-01 23:26:08.487|2	|API level: 31
+05-01 23:26:08.500|2	|Device: Wingtech ! Celero5G ! Saturn
+05-01 23:26:08.506|2	|Method: initialize sticky true
+05-01 23:26:08.512|2	|Start ABTO Service
+05-01 23:26:08.519|2	|build: 20220728
+05-01 23:26:08.526|2	|API level: 31
+05-01 23:26:08.532|2	|Device: Wingtech ! Celero5G ! Saturn
+05-01 23:26:08.541|2	|Create SIP Service
+05-01 23:26:08.550|2	|Service has been setup ? true
+05-01 23:26:08.556|2	|onCreate finished
+05-01 23:26:08.562|2	|onStartCommand
+05-01 23:26:08.568|2	|onStartCommand intent != null
+05-01 23:26:08.575|2	|flags = 0 , startId = 1, stickyState = 1
+05-01 23:26:08.623|2	|We are valid ANYWAY
+05-01 23:26:08.631|2	|Listen for Device State
+05-01 23:26:08.641|2	|Start monitoring of route file ? 0
+05-01 23:26:08.653|2	|Listen for phone state 
+05-01 23:26:08.674|2	|We are valid ANYWAY
+05-01 23:26:08.679|2	|Direct sip start
+05-01 23:26:08.685|2	|ABTOSipService start binding
+05-01 23:26:08.691|2	|Action is org.abtollc.service.ABTOSipService
+05-01 23:26:08.697|2	|Start sip on bind
+05-01 23:26:08.706|2	|Creating new handler thread
+05-01 23:26:08.716|2	|acquire wakelock: holder count=1
+05-01 23:26:08.724|2	|Service returned
+05-01 23:26:08.732|2	|acquire wakelock: holder count=2
+05-01 23:26:08.740|84	|Create Preferences
+05-01 23:26:08.745|2	|service connected
+05-01 23:26:08.753|84	|Cache some prefs
+05-01 23:26:08.763|84	|Start was asked and we should actually start now
+05-01 23:26:08.769|84	|Ask abservice to start itself
+05-01 23:26:08.785|84	|>>sipStart<< created = NO
+05-01 23:26:08.795|84	|We are valid ANYWAY
+05-01 23:26:08.802|84	|Starting sip stack
+05-01 23:26:08.808|2	|Event: Initialize state [1]: [Starting sip stack] notify true
+05-01 23:26:08.813|84	|send event type = 8
+05-01 23:26:08.818|84	|Quit this wrapper
+05-01 23:26:08.842|84	|Created 0
+05-01 23:26:08.848|84	|create receiver....
+05-01 23:26:08.859|84	|Create async worker !!!
+05-01 23:26:08.865|84	|create zrtp receiver
+05-01 23:26:08.872|84	|create notify receiver
+05-01 23:26:08.881|84	|create SIP msg receiver
+05-01 23:26:08.894|84	|Attach is done to callback
+05-01 23:26:08.909|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:08.915|84	|Found native lib using clean way
+05-01 23:26:08.925|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:08.932|84	|Found native lib using clean way
+05-01 23:26:08.943|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:08.959|84	|Found native lib using clean way
+05-01 23:26:08.969|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:08.977|84	|Found native lib using clean way
+05-01 23:26:08.982|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:08.987|84	|Found native lib using clean way
+05-01 23:26:08.994|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:09.002|84	|Found native lib using clean way
+05-01 23:26:09.007|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:09.013|84	|Found native lib using clean way
+05-01 23:26:09.020|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:09.032|84	|Found native lib using clean way
+05-01 23:26:09.042|84	|init function for codecs: abmedia_codec_g729_init
+05-01 23:26:09.049|84	|init function for codecs: abmedia_codec_g7221_init
+05-01 23:26:09.057|84	|init function for codecs: abmedia_codec_codec2_init
+05-01 23:26:09.064|84	|init function for codecs: abmedia_codec_ffmpeg_aud_init
+05-01 23:26:09.072|84	|init function for codecs: abmedia_codec_opus_init
+05-01 23:26:09.081|84	|Dir /data/user/0/com.smscodes.app
+05-01 23:26:09.091|84	|Found native lib using clean way
+05-01 23:26:09.100|84	|Use OpenSL-ES implementation
+05-01 23:26:09.112|84	|Load video plugin at /data/app/~~aAeVfc9-jxRIdPcIQabzA==/com.smscodes.app-22BoLl4JppUw4H2VZTiFUw==/lib/arm64/libabto_video_android.so
+05-01 23:26:09.128|84	|Check STUN is enabled: no
+05-01 23:26:09.143|84	|sip_endpoint.c  .Module "mod-absua-log" registered
+
+05-01 23:26:09.150|84	|sip_endpoint.c  .Module "mod-tsx-layer" registered
+
+05-01 23:26:09.155|84	|sip_endpoint.c  .Module "mod-stateful-util" registered
+
+05-01 23:26:09.167|84	|sip_endpoint.c  .Module "mod-ua" registered
+
+05-01 23:26:09.173|84	|sip_endpoint.c  .Module "mod-100rel" registered
+
+05-01 23:26:09.179|84	|sip_endpoint.c  .Module "mod-absua" registered
+
+05-01 23:26:09.186|84	|sip_endpoint.c  .Module "mod-invite" registered
+
+05-01 23:26:09.196|84	|webrtc_codec.c  ..List of supported codec.
+
+05-01 23:26:09.203|84	|webrtc_codec.c  ..0 ISAC 103 16000 480 32000
+
+05-01 23:26:09.213|84	|webrtc_codec.c  ..1 ISAC 104 32000 960 56000
+
+05-01 23:26:09.222|84	|webrtc_codec.c  ..6 ILBC 97 8000 240 13300
+
+05-01 23:26:09.234|84	|        silk.c  ..SILK codec version 1.0.9 initialized
+
+05-01 23:26:09.265|84	|     ab_opus.c  ..Init opus
+
+05-01 23:26:09.274|84	|     ab_opus.c  ..Init opus > DONE
+
+05-01 23:26:09.282|84	|     ab_opus.c  ..opus enum codecs
+
+05-01 23:26:09.292|84	|sip_endpoint.c  ..Module "mod-opus-sdp-rewriter" registered
+
+05-01 23:26:09.299|84	|  conference.c  ..Creating conference bridge with 12 ports
+
+05-01 23:26:09.306|84	|  Master/sound  ..Using delay buffer with WSOLA.
+
+05-01 23:26:09.317|84	|   absua_vid.c  ..Initializing video subsystem..
+
+05-01 23:26:09.323|84	|sip_endpoint.c  .Module "mod-evsub" registered
+
+05-01 23:26:09.328|84	|sip_endpoint.c  .Module "mod-presence" registered
+
+05-01 23:26:09.333|84	|       evsub.c  .Event pkg "presence" registered by mod-presence
+
+05-01 23:26:09.338|84	|sip_endpoint.c  .Module "mod-mwi" registered
+
+05-01 23:26:09.347|84	|       evsub.c  .Event pkg "message-summary" registered by mod-mwi
+
+05-01 23:26:09.353|84	|sip_endpoint.c  .Module "mod-refer" registered
+
+05-01 23:26:09.362|84	|       evsub.c  .Event pkg "refer" registered by mod-refer
+
+05-01 23:26:09.371|84	|sip_endpoint.c  .Module "mod-absua-pres" registered
+
+05-01 23:26:09.377|84	|sip_endpoint.c  .Module "mod-absua-im" registered
+
+05-01 23:26:09.386|84	|sip_endpoint.c  .Module "mod-absua-options" registered
+
+05-01 23:26:09.392|84	|  absua_core.c  .1 SIP worker threads created
+
+05-01 23:26:09.397|84	|  absua_core.c  .absua version 2.0.1svn for  initialized
+
+05-01 23:26:09.402|84	|  absua_core.c  .abSUA state changed: CREATED --> INIT
+
+05-01 23:26:09.414|84	|  opensl_dev.c  OpenSL sound library initialized
+
+05-01 23:26:09.423|84	|absua_jni_addo  Loaded audio dev
+
+05-01 23:26:09.431|84	|  opengl_dev.c  OpenGL device initialized
+
+05-01 23:26:09.436|84	|absua_jni_addo  Loaded video render dev
+
+05-01 23:26:09.628|84	| android_dev.c   0: no swap
+
+05-01 23:26:09.791|84	| android_dev.c   1: no swap
+
+05-01 23:26:09.796|84	| android_dev.c  Android video capture initialized with 2 device(s):
+
+05-01 23:26:09.801|84	| android_dev.c   0: Front camera
+
+05-01 23:26:09.807|84	| android_dev.c       supported format = YV12/2560x1440 YV12/1440x2560 YV12/2560x1152 YV12/1152x2560 YV12/2560x1120 YV12/1120x2560 YV12/1920x1440 YV12/1440x1920 YV12/1920x1088 YV12/1088x1920 YV12/1920x1080 YV12/1080x1920 YV12/1920x960 YV12/960x1920 YV12/1640x720 YV12/720x1640 YV12/1600x720 YV12/720x1600 YV12/1560x720 YV12/720x1560 YV12/1520x720 YV12/720x1520 YV12/1440x1440 YV12/1440x1440 YV12/1440x1080 YV12/1080x1440 YV12/1440x720 YV12/720x1440 YV12/1280x960 YV12/960x1280 YV12/1280x720 YV12/720x1280 YV12/1080x1080 YV12/1080x1080 YV12/1080x720 YV12/720x1080 YV12/960x720 YV12/720x960 YV12/720x720 YV12/720x720 YV12/720x480 YV12/480x720 YV12/640x480 YV12/480x640 YV12/352x288 YV12/288x352 YV12/320x240 YV12/240x320 YV12/192x144 YV12/144x192 YV12/192x108 YV12/108x192 YV12/176x144 YV12/144x176 YV12/160x96 YV12/96x160 NV21/2560x1440 NV21/1440x2560 NV21/2560x1152 NV21/1152x2560 NV21/2560x1120 NV21/1120x2560 NV21/1920x1440 NV21/1440x1920 NV21/1920x1088 NV21/1088x1920 NV21/1920x1080 NV21/1080x1920 NV21/1920x960 NV21/960x1920 NV21/1640x720 NV21/720x1640 NV21/1600x720 NV21/720x1600 NV21/1560x720 NV21/720x1560 NV21/1520x720 NV21/720x1520 NV21/1440x1440 NV21/1440x1440 NV21/1440x1080 NV21/1080x1440 NV21/1440x720 NV21/720x1440 NV21/1280x960 NV21/960x1280 NV21/1280x720 NV21/720x1280 NV21/1080x1080 NV21/1080x1080 NV21/1080x720 NV21/720x1080 NV21/960x720 NV21/720x960 NV21/720x720 NV21/720x720 NV21/720x480 NV21/480x720 NV21/640x480 NV21/480x640 NV21/352x288 NV21/288x352 NV21/320x240 NV21/240x320 NV21/192x144 NV21/144x192 NV21/192x108 NV21/108x192 NV21/176x144 NV21/144x176 NV21/160x96 NV21/96x160 I420/2560x1440 I420/1440x2560 I420/2560x1152 I420/1152x2560 I420/2560x1120 I420/1120x2560 I420/1920x1440 I420/1440x1920 I420/1920x1088 I420/1088x1920 I420/1920x1080 I420/1080x1920 I420/1920x960 I420/960x1920 I420/1640x720 I420/720x1640 I420/1600x720 I420/720x1600 I420/1560x720 I420/720x1560 I420/1520x720 I420/720x1520 I420/1440x1440 I420/1440x1440 I420/1440x1080 I420/1080x1440 I420/1440x720 I420/720x1440 I420/1280x960 I420/960x1280 I420/1280x720 I420/720x1280 I420/1080x1080 I420/108
+
+05-01 23:26:09.815|84	| android_dev.c   1: Back camera
+
+05-01 23:26:09.821|84	| android_dev.c       supported format = YV12/2560x1440 YV12/1440x2560 YV12/2560x1152 YV12/1152x2560 YV12/2560x1120 YV12/1120x2560 YV12/1920x1440 YV12/1440x1920 YV12/1920x1088 YV12/1088x1920 YV12/1920x1080 YV12/1080x1920 YV12/1920x960 YV12/960x1920 YV12/1640x720 YV12/720x1640 YV12/1600x720 YV12/720x1600 YV12/1560x720 YV12/720x1560 YV12/1520x720 YV12/720x1520 YV12/1440x1440 YV12/1440x1440 YV12/1440x1080 YV12/1080x1440 YV12/1440x720 YV12/720x1440 YV12/1280x960 YV12/960x1280 YV12/1280x720 YV12/720x1280 YV12/1080x1080 YV12/1080x1080 YV12/1080x720 YV12/720x1080 YV12/960x720 YV12/720x960 YV12/720x720 YV12/720x720 YV12/720x480 YV12/480x720 YV12/640x480 YV12/480x640 YV12/352x288 YV12/288x352 YV12/320x240 YV12/240x320 YV12/192x144 YV12/144x192 YV12/192x108 YV12/108x192 YV12/176x144 YV12/144x176 YV12/160x96 YV12/96x160 NV21/2560x1440 NV21/1440x2560 NV21/2560x1152 NV21/1152x2560 NV21/2560x1120 NV21/1120x2560 NV21/1920x1440 NV21/1440x1920 NV21/1920x1088 NV21/1088x1920 NV21/1920x1080 NV21/1080x1920 NV21/1920x960 NV21/960x1920 NV21/1640x720 NV21/720x1640 NV21/1600x720 NV21/720x1600 NV21/1560x720 NV21/720x1560 NV21/1520x720 NV21/720x1520 NV21/1440x1440 NV21/1440x1440 NV21/1440x1080 NV21/1080x1440 NV21/1440x720 NV21/720x1440 NV21/1280x960 NV21/960x1280 NV21/1280x720 NV21/720x1280 NV21/1080x1080 NV21/1080x1080 NV21/1080x720 NV21/720x1080 NV21/960x720 NV21/720x960 NV21/720x720 NV21/720x720 NV21/720x480 NV21/480x720 NV21/640x480 NV21/480x640 NV21/352x288 NV21/288x352 NV21/320x240 NV21/240x320 NV21/192x144 NV21/144x192 NV21/192x108 NV21/108x192 NV21/176x144 NV21/144x176 NV21/160x96 NV21/96x160 I420/2560x1440 I420/1440x2560 I420/2560x1152 I420/1152x2560 I420/2560x1120 I420/1120x2560 I420/1920x1440 I420/1440x1920 I420/1920x1088 I420/1088x1920 I420/1920x1080 I420/1080x1920 I420/1920x960 I420/960x1920 I420/1640x720 I420/720x1640 I420/1600x720 I420/720x1600 I420/1560x720 I420/720x1560 I420/1520x720 I420/720x1520 I420/1440x1440 I420/1440x1440 I420/1440x1080 I420/1080x1440 I420/1440x720 I420/720x1440 I420/1280x960 I420/960x1280 I420/1280x720 I420/720x1280 I420/1080x1080 I420/108
+
+05-01 23:26:09.826|84	|absua_jni_addo  Loaded video capture dev
+
+05-01 23:26:09.832|84	|null_vid_dev.c  NULL video capture initialized with 1 device(s):
+
+05-01 23:26:09.842|84	|null_vid_dev.c   0: NULL video capturer
+
+05-01 23:26:09.860|84	|null_vid_dev.c       supported format = I420/352x288 
+
+05-01 23:26:09.866|84	|absua_jni_addo  Loaded NULL video capture dev
+
+05-01 23:26:09.872|84	|absua_jni_addo  Loaded video converter
+
+05-01 23:26:09.880|84	|      ab_vpx.c  Init vpx codec
+
+05-01 23:26:09.886|84	|      ab_vpx.c  Enum codecs...
+
+05-01 23:26:09.895|84	|ffmpeg_vid_cod  The H263-1998 codec is using base codec (H263)
+
+05-01 23:26:09.905|84	|ffmpeg_vid_cod  Cannot find H261 encoder in ffmpeg library
+
+05-01 23:26:09.913|84	|ffmpeg_vid_cod  Cannot find H261 decoder in ffmpeg library
+
+05-01 23:26:09.919|84	|sip_endpoint.c  Module "mod-custom-notify" registered
+
+05-01 23:26:09.925|2	|Event: Initialize state [3]: [Available port for UDP is not found, will be setting the random port] notify true
+05-01 23:26:09.932|84	|send event type = 8
+05-01 23:26:09.937|84	|Activate qos for this transport
+05-01 23:26:09.950|84	|  absua_core.c  SIP UDP socket reachable at 28.124.180.78:42606
+
+05-01 23:26:09.958|84	|udp0xb4000074e  SIP UDP transport started, published address is 28.124.180.78:42606
+
+05-01 23:26:09.966|84	|   absua_acc.c  Adding account: id=<sip:28.124.180.78:42606>
+
+05-01 23:26:09.973|84	|   absua_acc.c  .Account <sip:28.124.180.78:42606> added with id 0
+
+05-01 23:26:09.979|2	|Event: Initialize state [3]: [Available port for TCP is not found, will be setting the random port] notify true
+05-01 23:26:09.985|84	|send event type = 8
+05-01 23:26:09.995|84	|Activate qos for this transport
+05-01 23:26:10.002|84	|  tcplis:36677  SIP TCP listener ready for incoming connections at 28.124.180.78:36677
+
+05-01 23:26:10.008|84	|   absua_acc.c  Adding account: id=<sip:28.124.180.78:36677;transport=TCP>
+
+05-01 23:26:10.014|84	|   absua_acc.c  .Account <sip:28.124.180.78:36677;transport=TCP> added with id 1
+
+05-01 23:26:10.028|84	|send event type = 8
+05-01 23:26:10.038|2	|Event: Initialize state [3]: [Available port is not found, will be setting the random port] notify true
+05-01 23:26:10.045|84	|Activate qos for this transport
+05-01 23:26:10.053|84	|  tlslis:52201  SIP TLS listener is ready for incoming connections at 28.124.180.78:52201
+
+05-01 23:26:10.061|84	|   absua_acc.c  Adding account: id=<sip:28.124.180.78:52201;transport=TLS>
+
+05-01 23:26:10.072|84	|   absua_acc.c  .Account <sip:28.124.180.78:52201;transport=TLS> added with id 2
+
+05-01 23:26:10.078|84	|  absua_core.c  abSUA state changed: INIT --> STARTING
+
+05-01 23:26:10.085|84	|timer_android.  .ab_timer_heap_schedule 0
+
+05-01 23:26:10.091|84	|timer_android.  .Scheduling timer 1 of 0 in 300000 ms @ 0x7357baf2f0
+
+05-01 23:26:10.098|84	|timer_android.  .DBG SCHEDULE timer 0 with internal ID 1 of heap 0 callback 0x57666944
+
+05-01 23:26:10.105|84	|doSchedule 0/1471869680 in 300000ms
+05-01 23:26:10.114|84	|SCHED add 0 in 300000
+05-01 23:26:10.134|84	|sip_endpoint.c  .Module "mod-unsolicited-mwi" registered
+
+05-01 23:26:10.139|84	|  absua_core.c  .abSUA state changed: STARTING --> RUNNING
+
+05-01 23:26:10.146|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0d6f0 (speex/16000/1)
+
+05-01 23:26:10.151|84	|Added codec speex/16000/1
+05-01 23:26:10.157|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0d758 (speex/8000/1)
+
+05-01 23:26:10.164|84	|Added codec speex/8000/1
+05-01 23:26:10.170|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0d7c0 (speex/32000/1)
+
+05-01 23:26:10.177|84	|Added codec speex/32000/1
+05-01 23:26:10.188|84	|css_codecs_uti  codecs_get_id 10 bytes 0xe6a0d828 (GSM/8000/1)
+
+05-01 23:26:10.196|84	|Added codec GSM/8000/1
+05-01 23:26:10.204|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0d890 (PCMU/8000/1)
+
+05-01 23:26:10.212|84	|Added codec PCMU/8000/1
+05-01 23:26:10.229|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0d8f8 (PCMA/8000/1)
+
+05-01 23:26:10.238|84	|Added codec PCMA/8000/1
+05-01 23:26:10.248|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0d960 (G722/16000/1)
+
+05-01 23:26:10.254|84	|Added codec G722/16000/1
+05-01 23:26:10.259|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0d9c8 (ISAC/16000/1)
+
+05-01 23:26:10.266|84	|Added codec ISAC/16000/1
+05-01 23:26:10.272|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0da30 (ISAC/32000/1)
+
+05-01 23:26:10.279|84	|Added codec ISAC/32000/1
+05-01 23:26:10.285|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0da98 (ILBC/8000/1)
+
+05-01 23:26:10.291|84	|Added codec ILBC/8000/1
+05-01 23:26:10.297|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0db00 (SILK/8000/1)
+
+05-01 23:26:10.305|84	|Added codec SILK/8000/1
+05-01 23:26:10.311|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0db68 (SILK/12000/1)
+
+05-01 23:26:10.316|84	|Added codec SILK/12000/1
+05-01 23:26:10.323|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0dbd0 (SILK/16000/1)
+
+05-01 23:26:10.329|84	|Added codec SILK/16000/1
+05-01 23:26:10.335|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0dc38 (SILK/24000/1)
+
+05-01 23:26:10.341|84	|Added codec SILK/24000/1
+05-01 23:26:10.347|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0dca0 (G729/8000/1)
+
+05-01 23:26:10.356|84	|Added codec G729/8000/1
+05-01 23:26:10.363|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0dd08 (G7221/16000/1)
+
+05-01 23:26:10.368|84	|Added codec G7221/16000/1
+05-01 23:26:10.374|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0dd70 (G7221/16000/1)
+
+05-01 23:26:10.382|84	|Added codec G7221/16000/1
+05-01 23:26:10.388|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0ddd8 (G7221/32000/1)
+
+05-01 23:26:10.394|84	|Added codec G7221/32000/1
+05-01 23:26:10.400|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0de40 (G7221/32000/1)
+
+05-01 23:26:10.406|84	|Added codec G7221/32000/1
+05-01 23:26:10.412|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0dea8 (G7221/32000/1)
+
+05-01 23:26:10.417|84	|Added codec G7221/32000/1
+05-01 23:26:10.422|84	|css_codecs_uti  codecs_get_id 13 bytes 0xe6a0df10 (CODEC2/8000/1)
+
+05-01 23:26:10.429|84	|Added codec CODEC2/8000/1
+05-01 23:26:10.439|84	|css_codecs_uti  codecs_get_id 11 bytes 0xe6a0df78 (G723/8000/1)
+
+05-01 23:26:10.449|84	|Added codec G723/8000/1
+05-01 23:26:10.460|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0dfe0 (opus/16000/1)
+
+05-01 23:26:10.469|84	|Added codec opus/16000/1
+05-01 23:26:10.477|84	|css_codecs_uti  codecs_get_id 12 bytes 0xe6a0e048 (opus/48000/1)
+
+05-01 23:26:10.487|84	|Added codec opus/48000/1
+05-01 23:26:10.497|84	|css_codecs_uti  codecs_vid_get_id 7 bytes 0xe6a0d6f0 (VP8/102)
+
+05-01 23:26:10.507|84	|Added video codec VP8
+05-01 23:26:10.513|84	|css_codecs_uti  codecs_vid_get_id 7 bytes 0xe6a0d758 (H264/97)
+
+05-01 23:26:10.518|84	|Added video codec H264
+05-01 23:26:10.524|84	|css_codecs_uti  codecs_vid_get_id 12 bytes 0xe6a0d7c0 (H263-1998/96)
+
+05-01 23:26:10.530|84	|Added video codec H263-1998
+05-01 23:26:10.536|84	|css_codecs_uti  codecs_vid_get_id 7 bytes 0xe6a0d828 (H263/34)
+
+05-01 23:26:10.546|84	|Added video codec H263
+05-01 23:26:10.560|84	|css_codecs_uti  Set VP8 max resolution 640x480
+
+05-01 23:26:10.569|84	|      ab_vpx.c  vpx default attr
+
+05-01 23:26:10.577|84	|css_codecs_uti  Set H264 profile 66-31 352x288@15 0kbps
+
+05-01 23:26:10.582|84	|css_codecs_uti  Found default infos for this level 31 1280x720@30
+
+05-01 23:26:10.591|84	|css_codecs_uti  Profile is now 42e01f
+
+05-01 23:26:10.599|84	|Set h264 profile : 66, 31, 0
+05-01 23:26:10.608|84	|absua_jni_addo  Set custom OPUS params
+
+05-01 23:26:10.614|84	|Audio codecs : PCMU/8000/1 (79) - PCMA/8000/1 (80) - G729/8000/1 (81) - 
+05-01 23:26:10.625|84	|Video codecs : H264 (220) - H263-1998 (210) - 
+05-01 23:26:10.639|84	|SDK type: single call
+05-01 23:26:10.649|84	|INITIALIZE: Stack started notify about it
+05-01 23:26:10.661|2	|Event: Initialize state [4]: [Initialization success] notify true
+05-01 23:26:10.668|84	|send event type = 8
+05-01 23:26:10.679|84	|Add all accounts
+05-01 23:26:10.688|2	|Service not null
+05-01 23:26:10.699|84	|We are valid ANYWAY
+05-01 23:26:10.709|84	|We are adding all accounts right now....
+05-01 23:26:10.743|84	|No account found, skip registration
+05-01 23:26:10.753|84	|release wakelock: holder count=1
+05-01 23:26:10.759|84	|Internal receive android.net.conn.CONNECTIVITY_CHANGE
+05-01 23:26:10.764|84	|onConnectivityChanged
+05-01 23:26:10.771|84	|We are valid ANYWAY
+05-01 23:26:10.780|84	|release wakelock: holder count=0
+05-01 23:29:16.464|2	|Method: getCurrentAccountId
+05-01 23:29:16.499|2	|Method: getCurrentAccountId
+05-01 23:29:16.533|2	|Method: getCurrentAccountId
+05-01 23:29:16.589|2	|Method: register
+05-01 23:29:16.626|2	|acquire wakelock: holder count=1
+05-01 23:29:16.661|84	|We are valid ANYWAY
+05-01 23:29:16.696|84	|We are adding all accounts right now....
+05-01 23:29:16.741|84	|Create proxy 0
+05-01 23:29:16.781|84	|   absua_acc.c  Adding account: id=<sip:marrujojazmynegmailcom@sip.globalevoip.com>
+
+05-01 23:29:16.812|84	|   absua_acc.c  .Account <sip:marrujojazmynegmailcom@sip.globalevoip.com> added with id 3
+
+05-01 23:29:16.841|84	|   absua_acc.c  .Acc 3: setting registration..
+
+05-01 23:29:16.876|84	|      endpoint  ..Request msg REGISTER/cseq=46999 (tdta0xb4000075550c58d0) created.
+
+05-01 23:29:16.909|84	|tsx0xb40000752  ...Transaction created for Request msg REGISTER/cseq=47000 (tdta0xb4000075550c58d0)
+
+05-01 23:29:16.944|84	|tsx0xb40000752  ..Sending Request msg REGISTER/cseq=47000 (tdta0xb4000075550c58d0) in state Null
+
+05-01 23:29:16.975|84	| sip_resolve.c  ...DNS resolver not available, target 'sip.globalevoip.com:0' type=TLS will be resolved with getaddrinfo()
+
+05-01 23:29:17.067|84	| sip_resolve.c  ...Target 'sip.globalevoip.com:0' type=TLS resolved to '176.9.45.67:5061' type=TLS (TLS transport)
+
+05-01 23:29:17.100|84	|tlsc0xb4000075  ...TLS client transport created
+
+05-01 23:29:17.133|84	|tlsc0xb4000075  ...TLS transport 28.124.180.78:50647 is connecting to sip.globalevoip.com:5061...
+
+05-01 23:29:17.161|84	|  absua_core.c  ...TX 605 bytes Request msg REGISTER/cseq=47000 (tdta0xb4000075550c58d0) to TLS 176.9.45.67:5061:
+REGISTER sip:sip.globalevoip.com;transport=tls;lr SIP/2.0
+Via: SIP/2.0/TLS 28.124.180.78:50647;rport;branch=z9hG4bKabD6njr4-HscuQ5gFu8UHO3I6u-69IibkH
+Max-Forwards: 70
+From: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=Dby5.4RqA457DTmdUJqfiFhP.abSsSRY
+To: <sip:marrujojazmynegmailcom@sip.globalevoip.com>
+Call-ID: X7i-13YaxSzP-alE0EYb4EKW7WnONVVX
+CSeq: 47000 REGISTER
+User-Agent: 20220728
+Contact: <sip:marrujojazmynegmailcom@28.124.180.78:52201;transport=TLS>
+Expires: 300
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+--end msg--
+
+05-01 23:29:17.194|84	|sip_transactio  ...tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:17.221|84	|timer_android.  ...DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:17.250|84	|timer_android.  ...ab_timer_heap_schedule 0
+
+05-01 23:29:17.288|84	|timer_android.  ...Scheduling timer 2 of 0 in 32000 ms @ 0xb400007524e85300
+
+05-01 23:29:17.324|84	|timer_android.  ...DBG SCHEDULE timer 0 with internal ID 2 of heap 0 callback 0x57631820
+
+05-01 23:29:17.355|84	|doSchedule 1/619205376 in 32000ms
+05-01 23:29:17.384|84	|SCHED add 1 in 32000
+05-01 23:29:17.426|84	|tsx0xb40000752  ...State changed from Null to Calling, event=TX_MSG
+
+05-01 23:29:17.460|84	|   absua_acc.c  ..Acc 3: Registration sent
+
+05-01 23:29:17.484|84	|Added active=1 expires=0 priority=100 status_code=-1 status_text= account_id=1 wizard=EXPERT added_status=0 reg_uri=sip:sip.globalevoip.com display_name= absua_id=3
+05-01 23:29:17.507|2	|Accounts status.onChange( false)
+05-01 23:29:17.543|84	|   absua_acc.c  Acc 3: setting online status to 1..
+
+05-01 23:29:17.598|84	|release wakelock: holder count=0
+05-01 23:29:18.209|100	|tlsc0xb4000075 !TLS transport 28.124.180.78:50647 is connected to sip.globalevoip.com:5061
+
+05-01 23:29:18.216|101	|timer_android.  ab_timer_heap_schedule 0
+
+05-01 23:29:18.222|102	|timer_android.  Scheduling timer 3 of 0 in 30000 ms @ 0xb400007574f02ea8
+
+05-01 23:29:18.231|103	|timer_android.  DBG SCHEDULE timer 0 with internal ID 3 of heap 0 callback 0x5767ABD8
+
+05-01 23:29:18.236|104	|doSchedule 2/1961897640 in 30000ms
+05-01 23:29:18.241|104	|SCHED add 2 in 30000
+05-01 23:29:18.526|105	|sip_endpoint.c  Processing incoming message: Response msg 401/REGISTER/cseq=47000 (rdata0xb400007574f03020)
+
+05-01 23:29:18.534|106	|  absua_core.c  .RX 694 bytes Response msg 401/REGISTER/cseq=47000 (rdata0xb400007574f03020) from TLS 176.9.45.67:5061:
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TLS 28.124.180.78:50647;rport=11745;branch=z9hG4bKabD6njr4-HscuQ5gFu8UHO3I6u-69IibkH;received=172.56.209.14
+From: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=Dby5.4RqA457DTmdUJqfiFhP.abSsSRY
+To: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=y4pK4Q1t16U3g
+Call-ID: X7i-13YaxSzP-alE0EYb4EKW7WnONVVX
+CSeq: 47000 REGISTER
+User-Agent: FreeSWITCH
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+WWW-Authenticate: Digest realm="sip.globalevoip.com", nonce="38464a6d-e719-4052-aeb4-bd98d33bd786", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+--end msg--
+
+05-01 23:29:18.543|107	|tsx0xb40000752  .Incoming Response msg 401/REGISTER/cseq=47000 (rdata0xb400007574f03020) in state Calling
+
+05-01 23:29:18.554|108	|sip_transactio  ..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:18.562|109	|timer_android.  ..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:18.571|110	|sip_transactio  ..tsx_cancel_timer 1 with internal ID 2
+
+05-01 23:29:18.580|111	|timer_android.  ..DBG CANCEL timer 1 with internal ID 2 of heap 0 callback 0x57631820
+
+05-01 23:29:18.587|112	|timer_android.  ..Cancel timer 2
+
+05-01 23:29:18.599|113	|doCancel 1/619205376
+05-01 23:29:18.613|114	|sip_transactio  ..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:18.623|115	|timer_android.  ..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:18.635|116	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:18.646|117	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:18.657|118	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e85300
+
+05-01 23:29:18.666|119	|tsx0xb40000752  ..State changed from Calling to Completed, event=RX_MSG
+
+05-01 23:29:18.676|120	|tsx0xb40000752  ....Transaction created for Request msg REGISTER/cseq=47001 (tdta0xb4000075550c58d0)
+
+05-01 23:29:18.684|121	|tsx0xb40000752  ...Sending Request msg REGISTER/cseq=47001 (tdta0xb4000075550c58d0) in state Null
+
+05-01 23:29:18.690|122	|      endpoint  ....Request msg REGISTER/cseq=47001 (tdta0xb4000075550c58d0): skipping target resolution because address is already set
+
+05-01 23:29:18.705|123	|  absua_core.c  ....TX 911 bytes Request msg REGISTER/cseq=47001 (tdta0xb4000075550c58d0) to TLS 176.9.45.67:5061:
+REGISTER sip:sip.globalevoip.com;transport=tls;lr SIP/2.0
+Via: SIP/2.0/TLS 28.124.180.78:50647;rport;branch=z9hG4bKabWs38cXKhAzNlY1M0Ft4.tuiHU43Voz-5
+Max-Forwards: 70
+From: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=Dby5.4RqA457DTmdUJqfiFhP.abSsSRY
+To: <sip:marrujojazmynegmailcom@sip.globalevoip.com>
+Call-ID: X7i-13YaxSzP-alE0EYb4EKW7WnONVVX
+CSeq: 47001 REGISTER
+User-Agent: 20220728
+Contact: <sip:marrujojazmynegmailcom@28.124.180.78:52201;transport=TLS>
+Expires: 300
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="marrujojazmynegmailcom", realm="sip.globalevoip.com", nonce="38464a6d-e719-4052-aeb4-bd98d33bd786", uri="sip:sip.globalevoip.com;transport=tls;lr", response="02cebbcebfba307963e81f37b5ccaa54", algorithm=MD5, cnonce="KYYZ3MKQFLoQgOn6aNs8--6kdS-5APPE", qop=auth, nc=00000001
+Content-Length:  0
+
+
+--end msg--
+
+05-01 23:29:18.716|124	|sip_transactio  ....tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:18.726|125	|timer_android.  ....DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:18.738|126	|timer_android.  ....ab_timer_heap_schedule 0
+
+05-01 23:29:18.749|127	|timer_android.  ....Scheduling timer 4 of 0 in 32000 ms @ 0xb400007524e75d60
+
+05-01 23:29:18.761|128	|timer_android.  ....DBG SCHEDULE timer 0 with internal ID 4 of heap 0 callback 0x57631820
+
+05-01 23:29:18.774|129	|doSchedule 3/619142496 in 32000ms
+05-01 23:29:18.782|129	|SCHED add 3 in 32000
+05-01 23:29:18.794|130	|tsx0xb40000752  ....State changed from Null to Calling, event=TX_MSG
+
+05-01 23:29:18.805|131	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:18.814|132	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:18.824|133	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e85300
+
+05-01 23:29:18.836|134	|timer_android.  ..ab_timer_heap_schedule -1
+
+05-01 23:29:18.846|135	|timer_android.  ..Scheduling timer 5 of 0 in 0 ms @ 0xb400007524e85300
+
+05-01 23:29:18.857|136	|timer_android.  ..DBG SCHEDULE timer 0 with internal ID 5 of heap 0 callback 0x57631820
+
+05-01 23:29:18.867|137	|doSchedule 4/619205376 in 0ms
+05-01 23:29:18.887|138	|>> timer fire 4
+05-01 23:29:18.896|138	|timer_android. !Registered thread timer_thread_4
+
+05-01 23:29:18.904|138	|timer_android.  FIRE timer 5 of heap 0
+
+05-01 23:29:18.912|138	|timer_android.  DBG FIRE timer 1 with internal ID 5(5) of heap 0 callback 0x57631820
+
+05-01 23:29:18.921|138	|tsx0xb40000752  tsx_timer_callback timer event with id 1
+
+05-01 23:29:18.930|138	|tsx0xb40000752  Timeout timer event
+
+05-01 23:29:18.942|138	|tsx0xb40000752  .State changed from Completed to Terminated, event=TIMER
+
+05-01 23:29:18.954|138	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:18.962|138	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:18.971|138	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e85300
+
+05-01 23:29:18.980|138	|tsx0xb40000752  ..tsx_schedule_timer1
+
+05-01 23:29:18.988|138	|timer_android.  ..ab_timer_heap_schedule -1
+
+05-01 23:29:18.997|138	|timer_android.  ..Scheduling timer 6 of 0 in 0 ms @ 0xb400007524e85300
+
+05-01 23:29:19.005|138	|timer_android.  ..DBG SCHEDULE timer 0 with internal ID 6 of heap 0 callback 0x57631820
+
+05-01 23:29:19.015|138	|doSchedule 5/619205376 in 0ms
+05-01 23:29:19.025|138	|timer_android.  FIRE done and released
+
+05-01 23:29:19.031|138	|timer fire >> 4
+05-01 23:29:19.036|139	|>> timer fire 5
+05-01 23:29:19.042|139	|timer_android. !Registered thread timer_thread_5
+
+05-01 23:29:19.051|139	|timer_android.  FIRE timer 6 of heap 0
+
+05-01 23:29:19.061|139	|timer_android.  DBG FIRE timer 1 with internal ID 6(6) of heap 0 callback 0x57631820
+
+05-01 23:29:19.070|139	|tsx0xb40000752  tsx_timer_callback timer event with id 1
+
+05-01 23:29:19.081|139	|tsx0xb40000752  Timeout timer event
+
+05-01 23:29:19.095|139	|tsx0xb40000752  .State changed from Terminated to Destroyed, event=TIMER
+
+05-01 23:29:19.105|139	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:19.116|139	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:19.126|139	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e85300
+
+05-01 23:29:19.136|139	|sip_transactio  ..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:19.145|140	|sip_endpoint.c !Processing incoming message: Response msg 200/REGISTER/cseq=47001 (rdata0xb400007574f03020)
+
+05-01 23:29:19.154|139	|timer_android. !..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:19.163|141	|  absua_core.c !.RX 679 bytes Response msg 200/REGISTER/cseq=47001 (rdata0xb400007574f03020) from TLS 176.9.45.67:5061:
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 28.124.180.78:50647;rport=11745;branch=z9hG4bKabWs38cXKhAzNlY1M0Ft4.tuiHU43Voz-5;received=172.56.209.14
+From: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=Dby5.4RqA457DTmdUJqfiFhP.abSsSRY
+To: <sip:marrujojazmynegmailcom@sip.globalevoip.com>;tag=ZDgc6jjyyFjpc
+Call-ID: X7i-13YaxSzP-alE0EYb4EKW7WnONVVX
+CSeq: 47001 REGISTER
+Contact: <sip:marrujojazmynegmailcom@28.124.180.78:52201;transport=TLS>;expires=300
+Date: Thu, 02 May 2024 06:29:20 GMT
+User-Agent: FreeSWITCH
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Content-Length: 0
+
+
+--end msg--
+
+05-01 23:29:19.173|139	|tsx0xb40000752 !..Transaction destroyed!
+
+05-01 23:29:19.184|142	|tsx0xb40000752 !.Incoming Response msg 200/REGISTER/cseq=47001 (rdata0xb400007574f03020) in state Calling
+
+05-01 23:29:19.192|139	|timer_android. !FIRE done and released
+
+05-01 23:29:19.202|143	|sip_transactio !..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:19.212|139	|timer fire >> 5
+05-01 23:29:19.221|144	|timer_android.  ..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:19.231|145	|sip_transactio  ..tsx_cancel_timer 1 with internal ID 4
+
+05-01 23:29:19.241|146	|timer_android.  ..DBG CANCEL timer 1 with internal ID 4 of heap 0 callback 0x57631820
+
+05-01 23:29:19.253|147	|timer_android.  ..Cancel timer 4
+
+05-01 23:29:19.262|148	|doCancel 3/619142496
+05-01 23:29:19.275|149	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:19.284|150	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:19.294|151	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e75d60
+
+05-01 23:29:19.303|152	|timer_android.  ..ab_timer_heap_schedule -1
+
+05-01 23:29:19.316|153	|timer_android.  ..Scheduling timer 7 of 0 in 0 ms @ 0xb400007524e75d60
+
+05-01 23:29:19.326|154	|timer_android.  ..DBG SCHEDULE timer 0 with internal ID 7 of heap 0 callback 0x57631820
+
+05-01 23:29:19.336|155	|doSchedule 6/619142496 in 0ms
+05-01 23:29:19.345|157	|sip_transactio  ..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:19.353|158	|timer_android.  ..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:19.359|156	|>> timer fire 6
+05-01 23:29:19.368|159	|tsx0xb40000752  ..State changed from Calling to Completed, event=RX_MSG
+
+05-01 23:29:19.377|156	|timer_android. !Registered thread timer_thread_6
+
+05-01 23:29:19.385|160	|timer_android. !...DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x0
+
+05-01 23:29:19.395|156	|timer_android. !FIRE timer 7 of heap 0
+
+05-01 23:29:19.404|161	|timer_android. !...ab_timer_heap_schedule 0
+
+05-01 23:29:19.416|156	|timer_android. !DBG FIRE timer 1 with internal ID 7(7) of heap 0 callback 0x57631820
+
+05-01 23:29:19.427|156	|tsx0xb40000752  tsx_timer_callback timer event with id 1
+
+05-01 23:29:19.436|162	|timer_android. !...Scheduling timer 8 of 0 in 295000 ms @ 0xb400007504f46800
+
+05-01 23:29:19.444|156	|tsx0xb40000752 !Timeout timer event
+
+05-01 23:29:19.453|163	|timer_android. !...DBG SCHEDULE timer 1 with internal ID 8 of heap 0 callback 0x5769196C
+
+05-01 23:29:19.462|164	|doSchedule 7/83126272 in 295000ms
+05-01 23:29:19.471|164	|SCHED add 7 in 295000
+05-01 23:29:19.485|165	|   absua_acc.c  ....SIP outbound status for acc 3 is not active
+
+05-01 23:29:19.495|166	|   absua_acc.c  ....<sip:marrujojazmynegmailcom@sip.globalevoip.com>: registration success, status=200 (OK), will re-register in 300 seconds
+
+05-01 23:29:19.507|167	|New reg state for : 3
+05-01 23:29:19.519|167	|acquire wakelock: holder count=1
+05-01 23:29:19.528|156	|tsx0xb40000752 !.State changed from Completed to Terminated, event=TIMER
+
+05-01 23:29:19.536|84	|Found absua 3 searching 3
+05-01 23:29:19.544|156	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:19.552|84	|Update profile from service for 3 aka in db 1
+05-01 23:29:19.563|156	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:19.574|156	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e75d60
+
+05-01 23:29:19.581|84	|Updated active=1 expires=294 priority=100 status_code=200 status_text=OK account_id=1 wizard=EXPERT added_status=0 reg_uri=sip:sip.globalevoip.com display_name= absua_id=3
+05-01 23:29:19.590|156	|tsx0xb40000752  ..tsx_schedule_timer1
+
+05-01 23:29:19.601|84	|send event type = 4
+05-01 23:29:19.610|156	|timer_android.  ..ab_timer_heap_schedule -1
+
+05-01 23:29:19.619|84	|Profile state UP : expires=294 status_code=200 status_text=OK
+05-01 23:29:19.628|156	|timer_android.  ..Scheduling timer 2 of 0 in 0 ms @ 0xb400007524e75d60
+
+05-01 23:29:19.637|84	|Found absua 3 searching 3
+05-01 23:29:19.645|156	|timer_android.  ..DBG SCHEDULE timer 0 with internal ID 2 of heap 0 callback 0x57631820
+
+05-01 23:29:19.653|2	|Accounts status.onChange( false)
+05-01 23:29:19.661|84	|release wakelock: holder count=0
+05-01 23:29:19.675|2	|Event: Registered acc 1 notify true
+05-01 23:29:19.686|156	|doSchedule 1/619142496 in 0ms
+05-01 23:29:19.702|156	|timer_android.  FIRE done and released
+
+05-01 23:29:19.719|156	|timer fire >> 6
+05-01 23:29:19.737|168	|>> timer fire 1
+05-01 23:29:19.755|168	|timer_android. !Registered thread timer_thread_1
+
+05-01 23:29:19.770|168	|timer_android.  FIRE timer 2 of heap 0
+
+05-01 23:29:19.786|168	|timer_android.  DBG FIRE timer 1 with internal ID 2(2) of heap 0 callback 0x57631820
+
+05-01 23:29:19.796|168	|tsx0xb40000752  tsx_timer_callback timer event with id 1
+
+05-01 23:29:19.806|168	|tsx0xb40000752  Timeout timer event
+
+05-01 23:29:19.816|168	|tsx0xb40000752  .State changed from Terminated to Destroyed, event=TIMER
+
+05-01 23:29:19.824|168	|tdta0xb4000075  ..Destroying txdata Request msg REGISTER/cseq=47001 (tdta0xb4000075550c58d0)
+
+05-01 23:29:19.833|168	|sip_transactio  ..tsx_cancel_timer 0 with internal ID -1
+
+05-01 23:29:19.843|168	|timer_android.  ..DBG CANCEL timer 0 with internal ID -1 of heap 0 callback 0x57631820
+
+05-01 23:29:19.853|168	|timer_android.  ..Ask to cancel something already fired or cancelled : -1 @ 0xb400007524e75d60
+
+05-01 23:29:19.865|168	|sip_transactio  ..tsx_cancel_timer 0 with internal ID 0
+
+05-01 23:29:19.880|168	|timer_android.  ..DBG CANCEL timer 0 with internal ID 0 of heap 0 callback 0x57631820
+
+05-01 23:29:19.893|168	|tsx0xb40000752  ..Transaction destroyed!
+
+05-01 23:29:19.903|168	|timer_android.  FIRE done and released
+
+05-01 23:29:19.920|168	|timer fire >> 1
+05-01 23:29:29.788|2	|Method: getCurrentAccountId
+05-01 23:29:29.814|2	|Method: getCurrentAccountId
+05-01 23:29:29.833|2	|Service not null
+05-01 23:29:29.848|2	|Method: getSipProfileState acc 1
